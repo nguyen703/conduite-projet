@@ -196,7 +196,7 @@ export default function MathGame() {
                 </div>
 
                 {/* Speech bubble */}
-                <div className="absolute -right-28 top-16 bg-white p-4 rounded-xl shadow-md max-w-[200px] border-2 border-[#FFB6C1] before:content-[''] before:absolute before:left-[-10px] before:top-[20px] before:border-t-[10px] before:border-r-[10px] before:border-b-[10px] before:border-t-transparent before:border-r-white before:border-b-transparent">
+                <div className="absolute right-[-200px] top-16 bg-white p-4 rounded-xl shadow-md max-w-[200px] border-2 border-[#FFB6C1] before:content-[''] before:absolute before:left-[-10px] before:top-[20px] before:border-t-[10px] before:border-r-[10px] before:border-b-[10px] before:border-t-transparent before:border-r-white before:border-b-transparent">
                   <p className="text-[#1a1a1a] text-sm font-medium">
                     {getRobotMessage()}
                   </p>

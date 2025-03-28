@@ -32,14 +32,8 @@ export default async function LocaleLayout({ children, params }: LocaleLayoutPro
     }
 
     return (
-        <html lang={locale} suppressHydrationWarning>
-            <body
-                className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-            >
-                <NextIntlClientProvider locale={locale} messages={messages}>
-                    {children}
-                </NextIntlClientProvider>
-            </body>
-        </html>
+        <NextIntlClientProvider locale={locale} messages={messages}>
+            {children}
+        </NextIntlClientProvider>
     );
 } 
